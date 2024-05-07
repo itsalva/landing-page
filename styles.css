@@ -1,5 +1,4 @@
 /* notes for future self:
-replace placeholders
 work on header
 work on hero
 work on info
@@ -30,6 +29,7 @@ refactor sizing
 
 .logo {
   display: flex;
+  flex: 1;
   color: #f9faf8;
   font-size: 24px;
 }
@@ -49,6 +49,8 @@ refactor sizing
 
 .hero {
   display: flex;
+
+  flex: 1;
   background-color: #1f2937;
   padding: 100px 300px 100px 300px;
   align-items: stretch;
@@ -101,12 +103,16 @@ refactor sizing
 }
 .info {
   display: flex;
+
+  flex: 1;
   justify-content: center;
   gap: 60px;
   padding: 25px 0 50px 0;
 }
 .staff {
   display: flex;
+
+  flex: 1;
   justify-content: center;
   align-items: center;
   max-width: 200px;
@@ -125,6 +131,8 @@ refactor sizing
 
 .quotesec {
   display: flex;
+
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -139,7 +147,7 @@ refactor sizing
   font-weight: 300;
 }
 
-.thor {
+.quoter {
   margin-left: auto;
   font-size: 24px;
   font-weight: 700;
@@ -160,7 +168,7 @@ refactor sizing
   flex: 1;
   background-color: #3882f6;
   border-radius: 5px;
-  padding: 50px 250px;
+  padding: 50px 200px;
 }
 
 .ctatitle {
